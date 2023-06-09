@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "file name"
+
+read var 
+
+./create
+echo "${var}"
+./moder
+echo "${var}"
+./open
+echo "${var}"
+
