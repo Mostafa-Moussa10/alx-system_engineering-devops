@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "enter file name"
+read var
+#create file
+echo "#!/bin/bash" > 0x00-shell_basics/${var}
+#set permission
+chmod +x 0x00-shell_basics/${var}
+#open file
+vi 0x00-shell_basics/${var}
