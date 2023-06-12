@@ -4,6 +4,6 @@ git add .
 echo "enter commit"
 
 read var
-git commit -m "&{var}"
+git commit -m "${var}"
 
 git push
