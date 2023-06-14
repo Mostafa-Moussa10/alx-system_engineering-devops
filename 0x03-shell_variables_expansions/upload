@@ -1,0 +1,14 @@
+#!/bin/bash
+echo "enter file name"
+
+read name
+
+chmod +x ${name}
+
+git add .
+echo "enter commit"
+
+read var
+git commit -m "${var}"
+
+git push
